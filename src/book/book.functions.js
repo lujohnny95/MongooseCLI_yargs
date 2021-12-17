@@ -14,7 +14,7 @@ exports.addBook = async (bookObj) => {
         console.log(error)
     }
 }
-//find one book:
+//find one book by title:
 exports.findBook = async (findObj) => {
     try {
         await Book.findOne(findObj);
